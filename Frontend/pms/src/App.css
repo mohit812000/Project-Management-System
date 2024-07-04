@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar{
+  background-color: #190b3e !important;
+  
+}
+
+.login_icon{
+  border: 1px solid;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #190b3e;
+  color: white;
+  margin: auto;
+}
+
+.submit_btn{
+  /* background-color:#c42857 !important; */
+  /* background-color: black !important; */
+  background-color: #190b3e !important;
+  border: none !important;
+}
+
+.submit_btn1{
+  background-color:#c42857 !important;
+  border: none !important;
+}
+
+.nav-butt{
+  background-color: #c42857 !important;
+}
+
+.H1{
+  color: transparent;
+  -webkit-text-stroke: 1px #f87171;
+  font-family: "Bebas Neue", sans-serif;
+
+
+}
+
+.H2{
+  color: transparent;
+  -webkit-text-stroke: 1px #172554;
+  font-family: "Bebas Neue", sans-serif;
+
+}
+
+.ant-modal .ant-modal-footer{
+  display: none !important;
+}
+
+.back {
+  background-color: transparent;
+  color: black;
+}
+
+.back:hover{
+  background-color: #172554;
+  color: white;
+
+}
+
+
+
+
+
